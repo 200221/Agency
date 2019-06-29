@@ -1,0 +1,64 @@
+.portfolio-section {
+    background-color: #e2e2e2;
+}
+
+.project, .works {
+    background-color: #fafafa;
+}
+
+.all-project {
+    display: flex;
+}
+
+.project-work {
+    margin: 0 auto;
+}
+
+.project-title p, .project-title h4, .title-works p {
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.project-title p, .title-works p {
+    color: #c0c0c0;
+}
+
+.project-title h4, p {
+    margin: 20px 0;
+}
+
+.many-photo img {
+    width: 130px;
+    height: 100px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+
+.many-photo img:hover {
+    opacity: .5;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.all-content {
+    align-items: center;
+    text-align: center;
+}
+
+.photo-works {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-works img {
+    height: 250px;
+    padding: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.photo-works img:hover {
+    transform: rotate(-20deg);
+
+}

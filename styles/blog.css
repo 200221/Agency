@@ -1,0 +1,205 @@
+.blog-background {
+    background: url(../assets/images/backgroung4.png) no-repeat center / contain;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+h4, h5, p {
+    text-transform: none;
+    font-size: 16px;
+}
+
+.second-section {
+    background-color: #fafafa;
+}
+
+.box-column {
+    background-color: white;
+    text-align: left;
+}
+
+.box-column h4, h5, p {
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.all-content, .search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box-column {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.photo {
+    background: url("../assets/images/iconic.png") no-repeat left/contain;
+    height: 350px;
+    box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.photo:hover {
+    box-shadow: none;
+    color: black;
+}
+
+.all-photo-inst {
+    text-align: center;
+}
+
+.photo, .all-photo-inst {
+    display: flex;
+    align-items: center;
+}
+.blog-photo, .inst  {
+    margin: 0 auto;
+}
+
+#video {
+    background: url('../assets/images/lamp3.png') no-repeat center/contain;
+    height: 250px;
+    position: relative;
+    transition: 0.4s ease;
+    background-blend-mode: overlay;
+}
+
+#photo-lamp {
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% - 70px);
+}
+
+.box-column, .inst img, .tag p, .tag p:hover {
+    transition: all .3s ease-in-out;
+}
+
+.box-column:hover, .inst img:hover, .tag p:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    text-align: center;
+}
+
+.form {
+    padding: 30px 0;
+}
+
+.form input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #cacaca;
+    font-size: 16px;
+    color: #c8c8c8;
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.form textarea {
+    width: 800px;
+    height: 120px;
+    resize: none;
+    border: 1px solid #cacaca;
+    font-size: 16px;
+    color: #c8c8c8;
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.send {
+    margin: 40px auto;
+}
+
+.send:hover {
+    background-color: black;
+    color: white;
+}
+
+.search input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    width: 40px;
+}
+
+.search .search-container button {
+    background: #ddd;
+    cursor: pointer;
+}
+
+.search .search-container button:hover {
+    background: #ccc;
+}
+
+.posts {
+    height: 40px;
+    background: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts p {
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin: 0 auto;
+}
+
+.triangle {
+    width: 10px;
+    height: 10px;
+    background: #ebebeb;
+    clip-path: polygon(50% 100%, 100% 0, 0 0);
+    margin: 0 auto;
+}
+
+.post {
+    display: flex;
+    margin: 10px;
+}
+
+.post-text {
+    margin: 0 10px;
+}
+
+.post-text h5, p {
+    margin: 0;
+}
+
+.post img {
+    width: 92px;
+    height: 68px;
+}
+
+.tag {
+    display: flex;
+    margin: 10px 0;
+}
+
+.tag p {
+    border: 1px solid #bebebe;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.tag p:hover {
+    background: black;
+    color: white;
+}
+
+.inst img {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    margin: 3px;
+}

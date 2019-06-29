@@ -1,0 +1,89 @@
+.home {
+    background: url(../assets/images/backround.png) no-repeat center / cover;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.home-section {
+    padding: 0;
+}
+
+.section-title h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 0 40px 0;
+    letter-spacing: 8px;
+}
+
+.section-title h1 span {
+    background-color: black;
+}
+
+.section-title p {
+    text-align: center;
+}
+
+.left {
+    cursor: pointer;
+    position: absolute;
+    top: calc(60% - 50px);
+}
+
+.right {
+    cursor: pointer;
+    position: absolute;
+    right: 160px;
+    top: calc(60% - 50px);
+}
+
+.work {
+    background-color: #fafafa;
+}
+
+.design {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box-design, .box-design-2, .box-design-3 {
+    display: grid;
+}
+
+.box-design img, .box-design-2 img, .box-design-3 img {
+    padding: 10px 10px;
+}
+
+button {
+    margin: 40px auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-image: unset !important;
+}
+
+.right, .left {
+    width: 25px!important;
+    height: 30px!important;
+}
+.swiper-slide {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.box-design img, .box-design-2 img, .box-design-3 img {
+    transition: all .5s ease-in-out;
+}
+
+.box-design img:hover, .box-design-2 img:hover, .box-design-3 img:hover {
+    transform: scale(1.1);
+}

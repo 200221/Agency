@@ -1,0 +1,132 @@
+.skills-and-story, .our-team, .about-section {
+    background: #fafafa;
+}
+
+.our-story h3, .our-story p {
+    text-transform: none;
+}
+
+.about-section {
+    background-color: #f0f0f2;
+}
+
+.all-content-story {
+    display: flex;
+}
+
+.our-story, .our-skills {
+    padding: 0 20px;
+}
+
+.our-story h3, .our-skills h3, .team-inf h3 {
+    font-weight: 100;
+}
+
+.our-story p, .title p {
+    color: #cccccc;
+    margin: 10px 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.container2 {
+    width: 100%;
+    background-color: #ebebeb;
+    box-shadow: 0px 2px 4px #555555;
+    border-radius: 5px;
+}
+
+.skills {
+    text-align: right;
+    font-weight: bold;
+}
+
+@-webkit-keyframes move {
+    from {background-position:60px;} to { background-position:0px;}
+}
+
+.photoshop {
+    width: 90%;
+    -webkit-transition: width 0s ease;
+    background-image: linear-gradient(135deg,#777777 25%,#eeeeee 25%,#eeeeee 50%, #777777 50%, #777777 100%,#eeeeee 75%,#eeeeee 100%);
+    -webkit-animation: move .5s linear  infinite;
+}
+
+.branding {
+    width: 95%;
+    -webkit-transition: width 0s ease;
+    background-image: linear-gradient(135deg,#777777 25%,#eeeeee 25%,#eeeeee 50%, #777777 50%, #777777 100%,#eeeeee 75%,#eeeeee 100%);
+    -webkit-animation: move .5s linear infinite;
+}
+
+.photography {
+    width: 50%;
+    -webkit-transition: width 0s ease;
+    background-image: linear-gradient(135deg,#777777 25%,#eeeeee 25%,#eeeeee 50%, #777777 50%, #777777 100%,#eeeeee 75%,#eeeeee 100%);
+    -webkit-animation: move .5s linear  infinite;
+}
+
+.design {
+    width: 85%;
+    -webkit-transition: width 0s ease;
+    background-image: linear-gradient(135deg,#777777 25%,#eeeeee 25%,#eeeeee 50%, #777777 50%, #777777 100%,#eeeeee 75%,#eeeeee 100%);
+    -webkit-animation: move .5s linear  infinite;
+}
+
+.photoshop, .branding, .photography, .design {
+    box-shadow: 0 0 8px 4px rgba(221, 221, 221, 1);
+    background-color: #a1a1a1;
+    background-size: 60px;
+    border-radius: 5px;
+}
+
+.our-skills p {
+    text-transform: none;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.team-photo {
+    height: 440px;
+    background-color: #eeeeee;
+    text-align: center;
+    transition: background-color 1s linear;
+}
+
+.team-photo:hover {
+    background-color: #777777;
+}
+
+.team-photo img {
+    align-items: center;
+}
+
+.team-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    align-items: center;
+    background: white;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.team-inf {
+    padding: 30px;
+}
+
+.team-inf p, .team-inf h4 {
+    margin: 10px 0;
+    text-transform: none;
+    color: #cccccc;
+}
+
